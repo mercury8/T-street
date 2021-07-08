@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Horizontal Scroll</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/page-slider.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Text:600i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="main-nav">
+          <span id="sNav"></span>
+          <div id="sidenav" class="sidenav">
+            <a
+              href="javascript:void(0);"
+              class="closebtn"
+              onclick="closeNav()"
+              id="close-sNav"
+            ></a>
+            <a href="javascript:void(0);" class="goTo" data-index="0">About</a>
+            <a href="javascript:void(0);" class="goTo" data-index="1"
+              >Julian Gentilezza</a
+            >
+            <a href="javascript:void(0);" class="goTo" data-index="2"
+              >Franky Van Bever</a
+            >
+            <a href="javascript:void(0);" class="goTo" data-index="3"
+              >Matias Difabio</a
+            >
+            <a href="javascript:void(0);" class="goTo" data-index="4"
+              >Kayla Farmer</a
+            >
+            <a href="javascript:void(0);" class="goTo" data-index="5"
+              >Genessa Panainte</a
+            >
+            <a href="javascript:void(0);" class="goTo" data-index="6"
+              >Quinten De Graaf</a
+            >
+            <a href="javascript:void(0);" class="goTo" data-index="7"
+              >Clark Young</a
+            >
+            <a href="javascript:void(0);" class="goTo" data-index="8"
+              >Philipp</a
+            >
+          </div>
+        </div>
+
+        <!-- fullpage -->
+        <div id="fullpage">
+          <!-- section 1 -->
+          <div class="section section1">
+            <div class="section-wrap">
+              <h1>Unsplash</h1>
+              <h3>A collection of</h3>
+              <ul>
+                <li>Energy</li>
+                <li>Emotion</li>
+                <li>Experience</li>
+              </ul>
+              <p>Featured Photo: Simon Fitall</p>
+            </div>
+          </div>
+
+          <!-- section 2 -->
+          <div class="section section2">
+            <div class="section-wrap">
+              <h2 class="italic">Julian Gentilezza</h2>
+              <img
+                src="blank.gif"
+                class="lazyLoad"
+                data-src="images/01-julian-gentilezza.jpg"
+              />
+            </div>
+          </div>
+
+          <!-- section 3 -->
+          <div class="section section3">
+            <div class="section-wrap">
+              <h2 class="italic">Franky Van Bever</h2>
+              <img
+                src="blank.gif"
+                class="lazyLoad"
+                data-src="images/02-franky-van-bever.jpg"
+              />
+            </div>
+          </div>
+
+          <!-- section 4 -->
+          <div class="section section4">
+            <div class="section-wrap">
+              <h2 class="italic">Matias Difabio</h2>
+              <img
+                src="blank.gif"
+                class="lazyLoad"
+                data-src="images/03-matias-difabio.jpg"
+              />
+            </div>
+          </div>
+
+          <!-- section 5 -->
+          <div class="section section5">
+            <div class="section-wrap">
+              <h2 class="italic">Kayla Farmer</h2>
+              <img
+                src="blank.gif"
+                class="lazyLoad"
+                data-src="images/04-kayla-farmer.jpg"
+              />
+            </div>
+          </div>
+
+          <!-- section 6 -->
+          <div class="section section6">
+            <div class="section-wrap">
+              <h2 class="italic">Genessa Panainte</h2>
+              <img
+                src="blank.gif"
+                class="lazyLoad"
+                data-src="images/05-genessa-panainte.jpg"
+              />
+            </div>
+          </div>
+
+          <!-- section 7 -->
+          <div class="section section7">
+            <div class="section-wrap">
+              <h2 class="italic">Quinten De Graaf</h2>
+              <img
+                src="blank.gif"
+                class="lazyLoad"
+                data-src="images/06-quinten-de-graaf.jpg"
+              />
+            </div>
+          </div>
+
+          <!-- section 8 -->
+          <div class="section section8">
+            <div class="section-wrap">
+              <h2 class="italic">Clark Young</h2>
+              <img
+                src="blank.gif"
+                class="lazyLoad"
+                data-src="images/07-clark-young.jpg"
+              />
+            </div>
+          </div>
+
+          <!-- section 9 -->
+          <div class="section section9">
+            <div class="section-wrap">
+              <h2 class="italic">Philipp</h2>
+              <img
+                src="blank.gif"
+                class="lazyLoad"
+                data-src="images/08-philipp.jpg"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- full page -->
+      </div>
+    </div>
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/page-slider.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

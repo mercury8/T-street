@@ -1,0 +1,65 @@
+#fullpage {
+	display: block;
+	transition-property: all;
+    transition-duration: 1500ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+	transform: translate3d(0, 0, 0);
+}
+
+.no-transition {
+	transition: none!important;
+}
+
+.section {
+	display: table;
+	table-layout: fixed;
+	float: left;
+	width: 100vw;
+}
+
+.ps-progress-bar {
+	background: rgba(0,0,0,.8);
+	display: block;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+.ps-line-wrap {
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+.ps-line {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 14px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.ps-line:after {
+	border-top: 1px solid #fff;
+	display: block;
+	content: '';
+}
+
+.ps-indicator {
+	background: #fff;
+	width: 10%;
+	height: 10px;
+	position: relative;
+	top: 5px;
+	transition: all 1500ms;
+}
+
+.ps-next, .ps-prev {
+	display: none;
+	position: absolute;
+	top: 40%;
+	font-size: 0;
+}

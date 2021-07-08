@@ -1,0 +1,144 @@
+body,html {
+	height: 100%; 
+	width: 100%;
+}
+
+body {
+	overflow: hidden;
+	background: #000;
+    font-family: 'Lato', sans-serif;
+}
+
+.italic {
+	font-family: 'Crimson Text', sans-serif;
+	font-weight: 600;
+	text-shadow: 1px 0 0 #000;
+}
+
+.section {
+	position: relative;
+}
+
+.section1 {
+	display: block;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/bg.jpg);
+	color: #fff;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 46px;
+}
+
+h2 {
+	position: absolute;
+	top: 120px;
+	left: 70px;
+	color: #fff;
+	font-size: 42px;
+}
+
+h3 {
+	font-size: 22px;
+	margin-top: 30px;
+	margin-bottom: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.section1 .section-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#main-nav {
+	position: absolute;
+	z-index: 99;
+	top: 20px;
+	left: 20px;
+}
+
+ul {
+	padding: 0;
+}
+
+.section1 ul li {
+	display: inline-block;
+	padding: 15px;
+	font-family: 'Crimson Text', sans-serif;
+	font-weight: 600;
+	font-size: 28px;
+}
+
+h1 {
+	color: #fff;
+}
+
+img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+#sNav {
+	background: url(../images/hmenu.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	display: block;
+	margin-top: 10px;
+	z-index: 999;
+}
+
+#close-sNav {
+	background: url(../images/close.png) no-repeat;
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+
+.sidenav {
+    height: 100%;
+    width: 16vw;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: -16vw;
+    background: rgba(0,0,0,.8);
+    overflow-x: hidden;
+    padding-top: 25vh;
+    transition: 0.3s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 26px;
+	left: 30px;
+	font-size: 0;
+	font-size: 3vw;
+	margin-left: 0;
+}
+
+.section-wrap {
+	width: 100vw;
+	height: 100vh;
+	display: block;
+}
+
+.ps-progress-bar {
+	z-index: 2;
+}
